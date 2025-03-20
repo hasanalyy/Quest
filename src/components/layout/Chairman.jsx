@@ -1,4 +1,8 @@
 import React from "react";
+import leaderImg from "../../assets/leader.png";
+import leaderImg2 from "../../assets/leader2.png";
+import leaderImg3 from "../../assets/leader3.png";
+import signature from "../../assets/signature.png";
 
 const Chairman = () => {
   return (
@@ -19,11 +23,7 @@ const Chairman = () => {
             <p className="text-gray-600 font-semibold mb-2">
               사단법인 사색의향기 이사장 오덕균
             </p>
-            <img
-              src="/images/signature.png"
-              alt="Signature"
-              className="w-[150px] h-auto"
-            />
+            <img src={signature} alt="Signature" className="w-[150px] h-auto" />
             <a
               href="#"
               className="mt-4 inline-block text-gray-700 font-semibold"
@@ -34,10 +34,10 @@ const Chairman = () => {
 
           {/* Right Side - CEO Image with Abstract Background Shape */}
           <div className="relative flex justify-end">
-            {/* Abstract Art Behind Image */}
+            /* Abstract Art Behind Image */}
             <div className="absolute -top-6 -left-6 w-[250px] h-[150px] bg-blue-200 rounded-bl-[60px] rounded-tr-[20px] -z-10"></div>
             <img
-              src="/images/leader.png"
+              src={leaderImg}
               alt="CEO"
               className="w-full max-w-[350px] h-auto rounded-lg relative z-10"
             />
@@ -49,7 +49,7 @@ const Chairman = () => {
           {/* Team Member 1 */}
           <div className="text-center">
             <img
-              src="/images/leader.png"
+              src={leader.png}
               alt="Team Member 1"
               className="w-36 h-36 object-cover rounded-full mx-auto mb-4"
             />
@@ -59,7 +59,7 @@ const Chairman = () => {
           {/* Team Member 2 */}
           <div className="text-center">
             <img
-              src="/images/leader2.png"
+              src={leader2.png}
               alt="Team Member 2"
               className="w-36 h-36 object-cover rounded-full mx-auto mb-4"
             />
@@ -69,7 +69,7 @@ const Chairman = () => {
           {/* Team Member 3 */}
           <div className="text-center">
             <img
-              src="/images/leader3.png"
+              src={leader3.png}
               alt="Team Member 3"
               className="w-36 h-36 object-cover rounded-full mx-auto mb-4"
             />

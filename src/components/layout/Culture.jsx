@@ -1,4 +1,5 @@
 import React from "react";
+import bookImg from "../../assets/hero.png";
 
 const Culture = () => {
   return (
@@ -12,7 +13,7 @@ const Culture = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-black">우리는</h2>
           <div className=" w-60 h-16 relative rounded-full overflow-hidden">
             <img
-              src="/images/book.png"
+              src={bookImg}
               alt="Book Image"
               className="object-cover w-full h-full"
             />
