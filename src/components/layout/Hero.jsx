@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -39,7 +40,7 @@ const Hero = () => {
       {/* Hero Image Section */}
       <div
         className="relative w-[90%] h-[80%] bg-cover bg-center rounded-[40px] overflow-hidden"
-        style={{ backgroundImage: "url('/images/hero.png')" }}
+        style={{ backgroundImage: `url(${heroImage})` }}
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-30 rounded-[40px]"></div>
